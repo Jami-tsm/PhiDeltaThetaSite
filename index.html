@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="UTF-8" />
     <title>Phi Delt NYH</title>
-    <link rel="shortcut icon" href="assets/PDT_Swords_Rev.png" type="image/x-icon">
-</head>
-<body>
-    <div id="TopBar">
-        <h1>Phi Delta Theta- New York Eta</h1>
-    </div>
-</body>
+    <link
+      rel="shortcut icon"
+      href="assets/PDT_Swords_Rev.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="desktopNav">
+      <div class="logo" onclick="location.href='./'">
+        Phi Delta Theta- New York Eta
+      </div>
+      <div>
+        <ul class="navLinks">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Recruitment">Recruitment</a></li>
+          <li><a href="#Brotherhood">Brotherhood</a></li>
+          <li><a href="Service">Service</a></li>
+          <li><a href="Contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburgerNav">
+      <div class="logo">Phi Delta Theta- New York Eta</div>
+      <div class="hamburgerMenu">
+        <div class="hamburgerIcon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menuLinks">
+          <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#Recruitment" onclick="toggleMenu()">Recruitment</a></li>
+          <li><a href="#Brotherhood" onclick="toggleMenu()">Brotherhood</a></li>
+          <li><a href="#Service" onclick="toggleMenu()">Service</a></li>
+          <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+  </body>
 </html>
