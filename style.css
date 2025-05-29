@@ -1,10 +1,26 @@
+/* General*/
+@font-face {
+    font-family: PhiStd;
+    src: url(assets/fonts/TestSohneBreit-Buch.otf);
+}
+
+@font-face {
+    font-family: PhiBold;
+    src: url(assets/fonts/TestSohne-Halbfett.otf) ;
+}
+
+body{
+    font-family: PhiStd;
+}
+
 /* Desktop Nav*/
+
  nav, .navLinks{
   display: flex;
  }
 
  nav{
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   height: 17vh;
  }
@@ -16,13 +32,13 @@
  }
 
  a{
-  color: black;
+  color: white;
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: black;
  }
 
  a:hover{
-  color: gray;
+  color: #AFAFB4;
   text-decoration: underline;
   text-underline-offset: .5rem;
   text-decoration-color: rbg(181,181,181);
@@ -59,7 +75,7 @@
  .hamburgerIcon span{
   width: 100%;
   height: 2px;
-  background-color: black;
+  background-color: white;
   transition: all 0.3 ease-in-out;
  }
 
@@ -115,4 +131,9 @@
 
  .hamburgerIcon span:first-child{
   transform: none;
+ }
+
+ .letters{
+    color: white;
+    font-size: 90px;
  }
