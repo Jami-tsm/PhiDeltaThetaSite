@@ -16,17 +16,22 @@ body{
 }
 
 /* Desktop Nav*/
+/* #desktopNav{
+    background-color: rgba(255,255,255,0.5)
+} */
 
  nav, .navLinks{
   display: flex;
   margin: 0;
   padding: 1px;
+  
  }
 
  nav{
   justify-content: space-evenly;
   align-items: center;
   height: 17vh;
+  
  }
 
  .navLinks{
@@ -163,4 +168,18 @@ body{
     justify-content: space-between;
     padding: 50px;
     font-size: small;
+}
+
+/* Recruitment */
+#Recruitment{
+    background-color: #0D1433;
+    margin: 0;
+    padding: 1px;
+    color: #F1F5F9;
+}
+
+#RecruitmentTitle{
+    font-family: PhiStd;
+    font-size: xx-large;
+    text-align: center;
 }
