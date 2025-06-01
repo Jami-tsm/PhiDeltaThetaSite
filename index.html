@@ -20,8 +20,8 @@
           ><img
             alt="Phi Delta Theta Shield"
             loading="lazy"
-            width="200"
-            height="100"
+            width="205"
+            height="105"
             decoding="async"
             data-nimg="1"
             class="drop-shadow-[0_0_10px_rgba(251,191,36,0.5)]"
@@ -36,7 +36,7 @@
       </div>
       <div>
         <ul class="navLinks">
-          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
           <li><a href="#Recruitment">Recruitment</a></li>
           <li><a href="#Brotherhood">Brotherhood</a></li>
           <li><a href="#Service">Service</a></li>
@@ -45,7 +45,28 @@
       </div>
     </nav>
     <nav id="hamburgerNav">
-      <div class="logo">Phi Delta Theta- New York Eta</div>
+      <div class="logo" onclick="location.href='./'">
+        <!-- <img src="./assets/PDT_Greek_1C.png" alt="PDT_Greek_1C"> -->
+        <a
+          class="font-bold text-xl flex items-center gap-2 hover:scale-105 transition-transform"
+          href="/"
+          ><img
+            alt="Phi Delta Theta Shield"
+            loading="lazy"
+            width="250"
+            height="100"
+            decoding="async"
+            data-nimg="1"
+            class="drop-shadow-[0_0_10px_rgba(251,191,36,0.5)]"
+            style="color: transparent"
+            src="assets/PDT_Greek_Rev_NoTag.png"
+          />
+        </a>
+        <!-- <span
+          class="letters"
+          >ΦΔΘ</span
+        > -->
+      </div>
       <div class="hamburgerMenu">
         <div class="hamburgerIcon" onclick="toggleMenu()">
           <span></span>
@@ -53,7 +74,7 @@
           <span></span>
         </div>
         <div class="menuLinks">
-          <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#About" onclick="toggleMenu()">About</a></li>
           <li><a href="#Recruitment" onclick="toggleMenu()">Recruitment</a></li>
           <li><a href="#Brotherhood" onclick="toggleMenu()">Brotherhood</a></li>
           <li><a href="#Service" onclick="toggleMenu()">Service</a></li>
@@ -61,5 +82,39 @@
         </div>
       </div>
     </nav>
+    <section id="About">
+      <div id="FoundingPrinciples">
+        <div id="PrinciplesTitle">
+          <h2><u>Our Cardinal Principles</u></h2>
+        </div>
+        <div id="PrinciplesContainer">
+          <div id="Friendship">
+            <h3>Friendship</h3>
+            <p>
+              Great friendships are a crucial component of living well, and Phi
+              Delta Theta challenges its members to create long-term and
+              meaningful relationships with each other that stand the test of
+              time.
+            </p>
+          </div>
+          <div id="SoundLearning">
+            <h3>Sound Learning</h3>
+            <p>
+              Sound Learning is much more than getting good grades. It’s about
+              intellectual curiosity and the search for truth. It’s about
+              well-roundedness and becoming cultured in all aspects of life.
+            </p>
+          </div>
+          <div id="MoralRectitude">
+            <h3>Moral Rectitude</h3>
+            <p>
+              Rectitude can be defined in many ways, but the Fraternity
+              resonates with its qualities of honesty, integrity, character,
+              kindness, and compassion.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

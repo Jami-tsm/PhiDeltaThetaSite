@@ -11,12 +11,16 @@
 
 body{
     font-family: PhiStd;
+    margin: 0;
+    padding: 0;
 }
 
 /* Desktop Nav*/
 
  nav, .navLinks{
   display: flex;
+  margin: 0;
+  padding: 1px;
  }
 
  nav{
@@ -137,3 +141,26 @@ body{
     color: white;
     font-size: 90px;
  }
+
+ /* About Section*/
+#About{
+    background-color: #DBECF3;
+    margin: 0;
+    padding: 1px;
+    color: #0D1433;
+}
+
+#FoundingPrinciples{
+    font-family: PhiStd;
+    font-size: xx-large;
+    text-align: center;
+    /* margin: auto; */
+}
+
+#PrinciplesContainer{
+    display: flex;
+    font-family: PhiStd;
+    justify-content: space-between;
+    padding: 50px;
+    font-size: small;
+}
