@@ -1,2 +1,15 @@
-Building a new chapter site for Phi Delta Theta - New York Eta.
-**Note:**This is a purely personal project and endevour, used to practice and further develop my front-end skills
+##Purpose
+---
+Develop a new chapter website for the New York Eta chapter of Phi Delta Theta Fraternity Inc. , located at the Rochester Institute of Technology.
+
+##Tools
+---
+- HTML
+- CSS
+- JavaScript
+- Git
+
+## Notes
+- All brand assets were aquired from [Phi Delta Theta Fraternity Inc](brand.phideltatheta.org)
+- This was designed to align with Phi Delta Theta Identity & Style Guidlines
+
