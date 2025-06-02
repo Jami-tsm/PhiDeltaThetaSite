@@ -9,18 +9,17 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQueries.css" />
   </head>
   <body>
-    <nav id="desktopNav" style="background-color: #0d1433">
+    <nav id="desktopNav" style="background-color: rgba(13, 20, 51)">
       <div class="logo" onclick="location.href='./'">
         <!-- <img src="./assets/PDT_Greek_1C.png" alt="PDT_Greek_1C"> -->
-        <a
-          class="font-bold text-xl flex items-center gap-2 hover:scale-105 transition-transform"
-          href="/"
+        <a href="/"
           ><img
             alt="Phi Delta Theta Shield"
             loading="lazy"
-            width="205"
+            width="230"
             height="105"
             decoding="async"
             data-nimg="1"
@@ -47,9 +46,7 @@
     <nav id="hamburgerNav">
       <div class="logo" onclick="location.href='./'">
         <!-- <img src="./assets/PDT_Greek_1C.png" alt="PDT_Greek_1C"> -->
-        <a
-          class="font-bold text-xl flex items-center gap-2 hover:scale-105 transition-transform"
-          href="/"
+        <a href="/"
           ><img
             alt="Phi Delta Theta Shield"
             loading="lazy"
@@ -121,8 +118,88 @@
         <h2>Join Phi Delt</h2>
       </div>
       <div id="RecruitmentContainer">
-        <div id="RecruitmentScedule"></div>
+        <div id="RecruitmentScedule">
+          <h3 id="RecruitmentSceduleTitle">Recruitment Schedule</h3>
+          <img src="/assets/Spring_24_Poster.png" alt="Recruitment Scedule" />
+        </div>
+        <div id="WhyPhiDelt">
+          <h3 id="WhyPhiDeltTitle">Why Phi Delt?</h3>
+          <div id="TestimonyContainer">
+            <div id="Corey">
+              <p>
+                I joined Phi Delta Theta to embrace leadership roles and serve
+                the community. After experiencing social disconnect in high
+                school and at RIT due to COVID. At Phi Delta Theta, I found
+                lifelong friendships and a renewed drive to become th ebest
+                version of myself.
+              </p>
+              <p>- Corey Plant #461</p>
+            </div>
+            <div id="Callum">
+              <p>
+                I joined Phi Delta Theta because the brothers were the most
+                genuine and down-to-earth people I had met. After graduating
+                from NTID, I wanted to expand my connections at RIT and pursue
+                growth opportunities. Phi Delta Theta's motto, 'one man is no
+                man,' resonated with my belief in the importance of community
+                for personal transformation. I;m deeply greatful for the journey
+                and the support I've received.
+              </p>
+              <p>- Callum Smith #481</p>
+            </div>
+            <div id="Pretzel">
+              <p>
+                As I was passing by the IFC kcikoff event, Evan Coppa asked if
+                he could have a bite of my sandwich. I agreed, and our
+                conversation about the fraternity piqued my interest. Attending
+                more events, I found that many of the brothers shared my
+                interests and values. I am grateful for the experience I've had,
+                the positions I've held, and the valuable insights the brothers
+                have offered, even though my time in the chapter has been
+                relatively short.
+              </p>
+              <p>- Nick Preletz #488</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+    <footer>
+      <nav id="footerNav">
+        <div class="stars" onclick="location.href='./'">
+          <!-- <img src="./assets/PDT_Greek_1C.png" alt="PDT_Greek_1C"> -->
+          <a href="/"
+            ><img
+              alt="Phi Delta Theta Stars"
+              loading="lazy"
+              width="100"
+              height="75"
+              decoding="async"
+              data-nimg="1"
+              class="drop-shadow-[0_0_10px_rgba(251,191,36,0.5)]"
+              style="color: transparent"
+              src="assets/PDT_Stars_Rev.png"
+            />
+          </a>
+          <!-- <span
+          class="letters"
+          >ΦΔΘ</span
+        > -->
+        </div>
+        <div class="navLinksContainer">
+          <ul class="navLinks">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Recruitment">Recruitment</a></li>
+            <li><a href="#Brotherhood">Brotherhood</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p id="Copyright" style="text-align: center; color: #f8fafc">
+        Copyright &#169; 2025 Phi Delta Theta Fraternity Inc New York Eta
+        Chapter. All Rights Reserved.
+      </p>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
