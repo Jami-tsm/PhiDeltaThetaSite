@@ -1,15 +1,16 @@
-##Purpose
----
+## ##Purpose
+
 Develop a new chapter website for the New York Eta chapter of Phi Delta Theta Fraternity Inc. , located at the Rochester Institute of Technology.
 
-##Tools
----
+## ##Tools
+
 - HTML
 - CSS
 - JavaScript
 - Git
+- [123formbuilder](https://123formbuilder.com) (PHP Contact Form)
 
 ## Notes
+
 - All brand assets were aquired from [Phi Delta Theta Fraternity Inc](brand.phideltatheta.org)
 - This was designed to align with Phi Delta Theta Identity & Style Guidlines
-
