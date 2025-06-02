@@ -26,7 +26,6 @@ body{
   display: flex;
   margin: 0;
   padding: 1px;
-  /* opacity: .5%; */
   
  }
 
@@ -68,6 +67,7 @@ body{
 
  #hamburgerNav{
   display: none;
+  background-color: rgba(13, 20, 51,0.75);
  }
 
  .hamburgerMenu{
@@ -161,16 +161,10 @@ body{
     padding: 1px;
 }
 
-/* h1{
-    color: #F8FAFC; /* Fallback for older browsers 
-    color: rgba(248, 250, 252, 0.5);
-} */
-
 #FoundingPrinciples{
     font-family: PhiStd;
     font-size: xx-large;
     text-align: center;
-    /* margin: auto; */
     color: rgba(248,250,252, 0.75);
 }
 
@@ -179,7 +173,6 @@ body{
     font-family: PhiStd;
     justify-content:baseline;
     padding: 45px;
-    /* margin: 5px; */
     font-size: small;
     color: #0D1433;
 }
@@ -187,17 +180,18 @@ body{
 #Friendship{
     background-color: rgba(248,250,252,0.75);
     border-radius: 25px;
+    margin-right: 10px;
 }
 #SoundLearning{
     background-color: rgba(248,250,252,0.75);
     border-radius: 25px;
+    margin-right: 10px;
 
 }
 
 #MoralRectitude{
     background-color: rgba(248,250,252,0.75);
     border-radius: 25px;
-
 }
 
 /* Recruitment */
@@ -229,31 +223,46 @@ body{
 #TestimonyContainer{
 display: table;
 color: #0D1433;
+margin-left: 95px;
 
 }
 
 #Corey{
-    /* display: table-caption; */
-    background-color: #F8FAFC;
-    border-radius: 25px;
+    background-color: #CBD5E1;
+    border-radius: 15px;
     word-wrap: break-word;
+    margin-bottom: 50px;
 
 }
 
 #Callum{
-    /* display: table-caption; */
-    background-color: #F8FAFC;
-    border-radius: 25px;
+    background-color: #CBD5E1;
+    border-radius: 15px;
     word-wrap: break-word;
-
+    margin-bottom: 50px;
 }
 
 #Pretzel{
-    /* display: table-caption; */
-    background-color: #F8FAFC;
-    border-radius: 25px;
+    background-color: #CBD5E1;
+    border-radius: 15px;
     word-wrap: break-word;
+    margin-bottom: 50px;
+}
 
+#JFoxxy{
+    background-color: #CBD5E1
+;
+    border-radius: 15px;
+    word-wrap: break-word;
+        margin-bottom: 50px;
+
+}
+
+#OPL{
+    background-color: #CBD5E1
+;
+    border-radius: 15px;
+    word-wrap: break-word;
 }
 
 /* Footer*/
