@@ -9,11 +9,16 @@
     src: url(assets/fonts/TestSohne-Halbfett.otf);
 }
 
+* {
+    margin: 0; 
+    padding: 0; 
+}
+
 body{
     font-family: PhiStd;
     margin: 0;
     padding: 0;
-    background-color: #CBD5E1;
+    background-color: #F8FAFC;
     overflow-x: hidden;
 }
 
@@ -29,7 +34,8 @@ body{
 
 /* Desktop Nav*/
 #desktopNav{
-    background-color: rgba(13, 20, 51,0.75);
+    /* background-color: #619CC7; */
+    position-anchor: absolute;
 }
 
  nav, .navLinks{
@@ -76,7 +82,7 @@ body{
 
  #hamburgerNav{
   display: none;
-  background-color: #0D1433;
+  /* background-color: #619CC7; */
  }
 
  .hamburgerMenu{
@@ -104,7 +110,7 @@ body{
   position: absolute;
   top: 100%;
   right: 0%;
-  background-color:#0D1433;
+  background-color:#F8FAFC;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -116,7 +122,7 @@ body{
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-    color: #F8FAFC;
+    color: #0D1433;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
  }
@@ -158,16 +164,20 @@ body{
  #Buffer{
     background-image: url('/assets/PDT_NYH_Reading_Day_Serenades.jpg');
     box-shadow: inset 0 0 0 1000px rgba(13, 20, 51, 0.65);
-    height: 50vh ;
+    height: 75vh ;
+    justify-content: center;
+    align-items: center;
+    border: none;
  }
 
 #BufferContainer{
     font-family: PhiStd;
-    font-size: xx-large;
-    text-align: center-left;
+    font-size: x-large;
     color: #F8FAFC;
      margin: 0;
     padding: 1px;
+    margin-top: 300px;
+    justify-self: center;
 }
 
 #PhiDeltTitle{
@@ -191,16 +201,20 @@ body{
     background-position: top;
     margin: 0;
     padding: 1px;
+    border: none;
 }
 
+
 #FoundingPrinciples{
-    background-color: #CBD5E1;
+    background-color: #F8FAFC;
     font-family: PhiStd;
     font-size: x-large;
     text-align: center;
     margin: 0;
     padding: 1px;
     color: #0D1433;
+        height: 40vh;
+
 }
 
 #PrinciplesContainer{
@@ -208,31 +222,34 @@ body{
     font-family: PhiStd;
     justify-content:baseline;
     padding: 45px;
-    font-size: small;
+    font-size: large;
     color: #0D1433;
 }
 
 #Friendship{
-    background-color: rgba(148,163,184,0.75);
+    background-color:#E2E8F0;
     border-radius: 25px;
     margin-right: 10px;
     padding-left: 5px;
     padding-right: 5px;
 }
 #SoundLearning{
-    background-color: rgba(148,163,184,0.75);
+    background-color: #E2E8F0;
     border-radius: 25px;
     margin-right: 10px;
 
 }
 
 #MoralRectitude{
-    background-color: rgba(148,163,184,0.75);
+    background-color: #E2E8F0;
     border-radius: 25px;
 }
 
 #history{
+    background-color: #DBECF3;
     text-align: center;
+    margin: 1px;
+    padding: 0;
 }
 #HistoryContainer{
     margin: 50px;
@@ -240,6 +257,19 @@ body{
     justify-content: space-around;
 }
 
+#HistoryTitle{
+    font-size: x-large;
+}
+
+#HistoryText{
+    width: 600px;
+}
+
+#historyImage {
+  width: 60%;
+  margin: auto;
+  display: block;
+}
 /* Recruitment */
 #Recruitment{
     background-color: #DBECF3;
@@ -248,10 +278,19 @@ body{
     color: #0D1433;
 }
 
+#RecruitmentTop{
+    background-image: url(assets/PDT_NYH_Fall_Recruitment_2024.jpg);
+    height: 75vh;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(13, 20, 51, 0.65);
+}
+
 #RecruitmentTitle{
     font-family: PhiStd;
     font-size: xx-large;
-    text-align: center;
+  text-align: center;
+  color: #F8FAFC;
+  margin-top: 200px;
 }
 
 #RecruitmentContainer{
@@ -292,26 +331,23 @@ margin-left: 95px;
   z-index: 99;
   border: none; 
   outline: none; 
-  /* background-image: url(assets/arrowIcon.png); */
-  color: #0D1433;  
+  background-image: url(assets/PDT_Swords.png);
+  background-color: #F1F5F9;
+  /* color: #0D1433;   */
   cursor: pointer; 
   padding: 15px; 
-  border-radius: 10px;
-  font-size: 18px; 
+  /* border-radius: 10px;
+  font-size: 18px;  */
 }
 
-
-#myBtn:hover {
-  background-color: #AFAFB4; 
-}
-
+/* Interest*/
 #ContactBtn, #DiscordBtn{
     font-family: PhiStd;
     color: #0D1433;
     margin-left: 20px;
     /* background-color: #AFAFB4; */
     border-radius: 15px;
-    font-size: medium;
+    font-size: larger;
 }
 
 
@@ -321,7 +357,7 @@ margin-left: 95px;
 }
 
 #interest{
-    background-color: #CBD5E1;
+    background-color: #F8FAFC;
     text-align: center;
     padding: 0;
     margin: 1px;
@@ -333,6 +369,21 @@ margin-left: 95px;
 
 /* Brotherhood */
 
+#BrotherhoodTop{
+    background-image: url(assets/PDT_NYH_White_Carnation_Ball_2025.jpg);
+    height: 75vh;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(13, 20, 51, 0.65);
+}
+
+#BrotherhoodTitle{
+        font-family: PhiStd;
+    font-size: xx-large;
+  text-align: center;
+  color: #F8FAFC;
+  margin-top: 200px;
+}
+
 #BrothersTitle{
     text-align: center;
 }
@@ -341,10 +392,35 @@ margin-left: 95px;
     grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+/* Service */
+#ServiceTop{
+    background-image: url(assets/PDT_NYH_Fall_Service_2024.jpg);
+    height: 75vh;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(13, 20, 51, 0.65);
+}
+
+#ServiceTitle{
+        font-family: PhiStd;
+    font-size: xx-large;
+  text-align: center;
+  color: #F8FAFC;
+  margin-top: 200px;
+}
+
 /* Footer*/
+
+#footer{
+    padding: 0;
+    margin: 1px;
+}
 #footerNav{
     background-color: #0D1433;
     justify-content: center;
+}
+
+#footerNavLinks{
+    color: #0D1433;
 }
 
 #Stars{

@@ -1,6 +1,6 @@
 ## ##Purpose
 
-Develop a new chapter website for the New York Eta chapter of Phi Delta Theta Fraternity Inc. , located at the Rochester Institute of Technology.
+Develop a new chapter website for the New York Eta chapter of Phi Delta Theta Fraternity Inc., located at the Rochester Institute of Technology.
 
 ## ##Tools
 
