@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-     <meta charset="UTF-8" />
+  <head>
+    <meta charset="UTF-8" />
     <title>Contact Us</title>
     <link
       rel="shortcut icon"
@@ -10,144 +10,160 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaQueries.css" />
-</head>
-<body>
+  </head>
+  <body>
     <body>
       <section id="ContactTop">
-    <nav id="desktopNav">
-      <div class="logo" onclick="location.href='./'">
-        <a href="/"
-          ><img
-            alt="Phi Delta Theta Shield"
-            loading="lazy"
-            width="150"
-            height="75"
-            decoding="async"
-            data-nimg="1"
-            class="drop-shadow-[0_0_10px_rgba(251,191,36,0.5)]"
-            style="color: transparent"
-            src="assets/PDT_Greek_Rev_NoTag.png"
-          />
-        </a>
-      </div>
-      <div>
-        <ul class="navLinks">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="recruitment.html">Recruitment</a></li>
-          <li><a href="brotherhood.html">Brotherhood</a></li>
-          <li><a href="service.html">Service</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburgerNav">
-      <div class="logo" onclick="location.href='./'">
-        <a href="/"
-          ><img
-            alt="Phi Delta Theta Shield"
-            loading="lazy"
-            width="150"
-            height="75"
-            decoding="async"
-            data-nimg="1"
-            class="rgba(251,191,36,0.5)"
-            style="color: transparent"
-            src="assets/PDT_Greek_Rev_NoTag.png"
-          />
-        </a>
-      </div>
-      <div class="hamburgerMenu">
-        <div class="hamburgerIcon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+        <nav id="desktopNav">
+          <div class="logo" onclick="location.href='./'">
+            <a href="/"
+              ><img
+                alt="Phi Delta Theta Shield"
+                loading="lazy"
+                width="150"
+                height="75"
+                decoding="async"
+                data-nimg="1"
+                class="drop-shadow-[0_0_10px_rgba(251,191,36,0.5)]"
+                style="color: transparent"
+                src="assets/PDT_Greek_Rev_NoTag.png"
+              />
+            </a>
+          </div>
+          <div>
+            <ul class="navLinks">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="recruitment.html">Recruitment</a></li>
+              <li><a href="brotherhood.html">Brotherhood</a></li>
+              <li><a href="service.html">Service</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <nav id="hamburgerNav">
+          <div class="logo" onclick="location.href='./'">
+            <a href="/"
+              ><img
+                alt="Phi Delta Theta Shield"
+                loading="lazy"
+                width="150"
+                height="75"
+                decoding="async"
+                data-nimg="1"
+                class="rgba(251,191,36,0.5)"
+                style="color: transparent"
+                src="assets/PDT_Greek_Rev_NoTag.png"
+              />
+            </a>
+          </div>
+          <div class="hamburgerMenu">
+            <div class="hamburgerIcon" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="menuLinks">
+              <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+              <li>
+                <a href="recruitment.html" onclick="toggleMenu()"
+                  >Recruitment</a
+                >
+              </li>
+              <li>
+                <a href="brotherhood.html" onclick="toggleMenu()"
+                  >Brotherhood</a
+                >
+              </li>
+              <li><a href="service.html" onclick="toggleMenu()">Service</a></li>
+              <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
+          </div>
+        </nav>
+        <section id="ContactContainer"></section>
+        <div id="ContactTitle">
+          <h1>Get in Touch</h1>
         </div>
-        <div class="menuLinks">
-          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
-          <li>
-            <a href="recruitment.html" onclick="toggleMenu()">Recruitment</a>
-          </li>
-          <li>
-            <a href="brotherhood.html" onclick="toggleMenu()">Brotherhood</a>
-          </li>
-          <li><a href="service.html" onclick="toggleMenu()">Service</a></li>
-          <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav><section id="ContactContainer"></section>
-      <div id="ContactTitle">
-        <h1>Get in Touch</h1>
-      </div>
-  </section>
-  <section id="ContactSection">
-  <div class="contact-form-container">
-        <h2>Contact Us</h2>
-        <form id="contactForm" method="post" action="contact.php">
+      </section>
+      <section id="ContactSection">
+        <div class="contact-form-container">
+          <h2>Contact Us</h2>
+          <form id="contactForm" method="post" action="contact.php">
             <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" 
-                       name="name" 
-                       placeholder="John Smith" required
-                       style="font-family: PhiStd"
-                       >
-                <span class="error-message" id="nameError"></span>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="John Smith"
+                required
+                style="font-family: PhiStd"
+              />
+              <span class="error-message" id="nameError"></span>
             </div>
             <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" 
-                       name="email" 
-                       placeholder="abc1234@rit.edu" required
-                       style="font-family: PhiStd"
-                       >
-                <span class="error-message" id="emailError"></span>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="abc1234@rit.edu"
+                required
+                style="font-family: PhiStd"
+              />
+              <span class="error-message" id="emailError"></span>
             </div>
             <div class="form-group">
-                <label for="subject">Subject</label>
-                <input  id="subject" type="subject"
-                       name="subject" 
-                       placeholder="Rush Interest" required
-                       style="font-family: PhiStd"
-                       >
-                <span class="error-message" id="subjectError"></span>
+              <label for="subject">Subject</label>
+              <input
+                id="subject"
+                type="subject"
+                name="subject"
+                placeholder="Rush Interest"
+                required
+                style="font-family: PhiStd"
+              />
+              <span class="error-message" id="subjectError"></span>
             </div>
             <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" 
-                          name="message" 
-                          placeholder="Your Message" 
-                          rows="5" required 
-                          style="font-family: PhiStd;"
-                          ></textarea>
-                <span class="error-message" 
-                      id="messageError"></span>
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Your Message"
+                rows="5"
+                required
+                style="font-family: PhiStd"
+              ></textarea>
+              <span class="error-message" id="messageError"></span>
             </div>
-            <button type="submit" 
-                    class="submit-button"
-                    style="font-family: PhiStd"
-                    >
+            <button
+              type="submit"
+              class="submit-button"
+              style="font-family: PhiStd"
+            >
               Send Message
             </button>
-        </form>
-    </div>
-    </section>
-<button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
-    <script src="scripts.js"></script>
-</body>
-<footer id="footer">
-    <nav id="footerNav">  
-      <div class="navLinksContainerFooter">
-        <ul class="navLinks">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="recruitment.html">Recruitment</a></li>
-          <li><a href="brotherhood.html">Brotherhood</a></li>
-          <li><a href="service.html">Service</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <p id="Copyright" style="text-align: center; color: #f8fafc">
-          &#169; 2025 Phi Delta Theta- New York Eta
-          Chapter.
-        </p>
-      </div>
-    </nav>
-  </footer>
+          </form>
+        </div>
+      </section>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <script src="scripts.js"></script>
+    </body>
+    <footer id="footer">
+      <nav id="footerNav">
+        <div class="navLinksContainerFooter">
+          <ul class="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recruitment.html">Recruitment</a></li>
+            <li><a href="brotherhood.html">Brotherhood</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <p id="Copyright" style="text-align: center; color: #f8fafc">
+            &#169; 2025 Phi Delta Theta- New York Eta Chapter.
+          </p>
+        </div>
+      </nav>
+    </footer>
+  </body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-     <meta charset="UTF-8" />
+  <head>
+    <meta charset="UTF-8" />
     <title>Brotherhood</title>
     <link
       rel="shortcut icon"
@@ -10,290 +10,476 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaQueries.css" />
-</head>
-<body>
+  </head>
+  <body>
     <body>
       <section id="BrotherhoodTop">
-    <nav id="desktopNav">
-      <div class="logo" onclick="location.href='./'">
-        <a href="/"
-          ><img
-            alt="Phi Delta Theta Shield"
-            loading="lazy"
-            width="150"
-            height="75"
-            decoding="async"
-            data-nimg="1"
-            class="drop-shadow-[0_0_10px_rgba(251,191,36,0.5)]"
-            style="color: transparent"
-            src="assets/PDT_Greek_Rev_NoTag.png"
-          />
-        </a>
-      </div>
-      <div>
-        <ul class="navLinks">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="recruitment.html">Recruitment</a></li>
-          <li><a href="brotherhood.html">Brotherhood</a></li>
-          <li><a href="service.html">Service</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburgerNav">
-      <div class="logo" onclick="location.href='./'">
-        <a href="/"
-          ><img
-            alt="Phi Delta Theta Shield"
-            loading="lazy"
-            width="150"
-            height="75"
-            decoding="async"
-            data-nimg="1"
-            class="rgba(251,191,36,0.5)"
-            style="color: transparent"
-            src="assets/PDT_Greek_Rev_NoTag.png"
-          />
-        </a>
-      </div>
-      <div class="hamburgerMenu">
-        <div class="hamburgerIcon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+        <nav id="desktopNav">
+          <div class="logo" onclick="location.href='./'">
+            <a href="/"
+              ><img
+                alt="Phi Delta Theta Shield"
+                loading="lazy"
+                width="150"
+                height="75"
+                decoding="async"
+                data-nimg="1"
+                class="drop-shadow-[0_0_10px_rgba(251,191,36,0.5)]"
+                style="color: transparent"
+                src="assets/PDT_Greek_Rev_NoTag.png"
+              />
+            </a>
+          </div>
+          <div>
+            <ul class="navLinks">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="recruitment.html">Recruitment</a></li>
+              <li><a href="brotherhood.html">Brotherhood</a></li>
+              <li><a href="service.html">Service</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <nav id="hamburgerNav">
+          <div class="logo" onclick="location.href='./'">
+            <a href="/"
+              ><img
+                alt="Phi Delta Theta Shield"
+                loading="lazy"
+                width="150"
+                height="75"
+                decoding="async"
+                data-nimg="1"
+                class="rgba(251,191,36,0.5)"
+                style="color: transparent"
+                src="assets/PDT_Greek_Rev_NoTag.png"
+              />
+            </a>
+          </div>
+          <div class="hamburgerMenu">
+            <div class="hamburgerIcon" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="menuLinks">
+              <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+              <li>
+                <a href="recruitment.html" onclick="toggleMenu()"
+                  >Recruitment</a
+                >
+              </li>
+              <li>
+                <a href="brotherhood.html" onclick="toggleMenu()"
+                  >Brotherhood</a
+                >
+              </li>
+              <li><a href="service.html" onclick="toggleMenu()">Service</a></li>
+              <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
+          </div>
+        </nav>
+        <div id="BrotherhoodTitle">
+          <h1>Brothers in the Bond</h1>
         </div>
-        <div class="menuLinks">
-          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
-          <li>
-            <a href="recruitment.html" onclick="toggleMenu()">Recruitment</a>
-          </li>
-          <li>
-            <a href="brotherhood.html" onclick="toggleMenu()">Brotherhood</a>
-          </li>
-          <li><a href="service.html" onclick="toggleMenu()">Service</a></li>
-          <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+      </section>
+      <section id="Brothers">
+        <div id="BrothersTitle"><h1>Our Brothers</h1></div>
+        <div id="GridContainer">
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/PDT_Shield.png"
+              alt="Brother Zuniga"
+              class="composite"
+            />
+            <p>Eric Zuniga #516</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/PDT_Shield.png"
+              alt="Brother Ebert"
+              class="composite"
+            />
+            <p>Ryan Ebert #515</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/PDT_Shield.png"
+              alt="Brother Juergens"
+              class="composite"
+            />
+            <p>Alexander Juergens #514</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/PDT_Shield.png"
+              alt="Brother Moskov"
+              class="composite"
+            />
+            <p>Luke Moscov #513</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/PDT_Shield.png"
+              alt="Brother Hill"
+              class="composite"
+            />
+            <p>Matthew Hill #512</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/PDT_Shield.png"
+              alt="Brother Metzger"
+              class="composite"
+            />
+            <p>Thomas Metzger #511</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/PDT_Shield.png"
+              alt="Brother Luu"
+              class="composite"
+            />
+            <p>Brian Luu #510</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/PDT_Shield.png"
+              alt="Brother Downey"
+              class="composite"
+            />
+            <p>Andrew Downey #509</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Black.jpg"
+              alt="Brother Black"
+              class="composite"
+            />
+            <p>Jayden Black #508</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Wojcik.jpg"
+              alt="Brother Wojcik"
+              class="composite"
+            />
+            <p>Mikey Wojcik #507</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/PDT_Shield.png"
+              alt="Brother Worster"
+              class="composite"
+            />
+            <p>Tobias Worster #506</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Birley.jpg"
+              alt="Brother Birley"
+              class="composite"
+            />
+            <p>Daniel Birley #505</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Lax.jpg"
+              alt="Brother Lax"
+              class="composite"
+            />
+            <p>Brady Lax #504</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Vella.jpg"
+              alt="Brother Vella"
+              class="composite"
+            />
+            <p>Griffin Vella #503</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/PDT_Shield.png"
+              alt="Brother Baker"
+              class="composite"
+            />
+            <p>Jameson Baker #502</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Murphy.jpg"
+              alt="Brother Murphy"
+              class="composite"
+            />
+            <p>Jackson Murphy #501</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Asghar.jpg"
+              alt="Brother Asghar"
+              class="composite"
+            />
+            <p>Taha Asghar #500</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Kessler.jpg"
+              alt="Brother Kessler"
+              class="composite"
+            />
+            <p>Jakob Kessler #499</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Perez.jpg"
+              alt="Brother Perez"
+              class="composite"
+            />
+            <p>Norton Perez #498</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Tomko.jpg"
+              alt="Brother Tomko"
+              class="composite"
+            />
+            <p>Mitchell Tomko #497</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Faber.jpg"
+              alt="Brother Faber"
+              class="composite"
+            />
+            <p>William Faber #496</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/PDT_Shield.png"
+              alt="Brother Reeves"
+              class="composite"
+            />
+            <p>Noah Reeves #495</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Selent.jpg"
+              alt="Brother Selent"
+              class="composite"
+            />
+            <p>Michael Selent #494</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Lee.jpg"
+              alt="Brother Lee"
+              class="composite"
+            />
+            <p>Jared Lee #493</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Tun.jpg"
+              alt="Brother Tun"
+              class="composite"
+            />
+            <p>Henry Tun #492</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/PDT_Shield.png"
+              alt="Brother Smaistria"
+              class="composite"
+            />
+            <p>Griffin Smaistria #491</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Stulberg.jpg"
+              alt="Brother Stulberg"
+              class="composite"
+            />
+            <p>Zachary Stulberg #490</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Feck.jpg"
+              alt="Brother Feck"
+              class="composite"
+            />
+            <p>Andy Feck #489</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Pretlez.jpg"
+              alt="Brother Preletz"
+              class="composite"
+            />
+            <p>Nick Pretletz #488</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Fox.jpg"
+              alt="Brother Fox"
+              class="composite"
+            />
+            <p>Jackson Fox #486</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_R_Smith.jpg"
+              alt="Brother Smith"
+              class="composite"
+            />
+            <p>Ryan Smith #485</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Gubitosi.jpg"
+              alt="Brother Gubitosi"
+              class="composite"
+            />
+            <p>Sean Gubitosi #484</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_C_Smith.jpg"
+              alt="Brother Smith"
+              class="composite"
+            />
+            <p>Callum Smith #481</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Pelletier.jpg"
+              alt="Brother Pelletier"
+              class="composite"
+            />
+            <p>Alex Pellitier #480</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Tully.jpg"
+              alt="Brother Tully"
+              class="composite"
+            />
+            <p>Adam Tully #479</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/PDT_Shield.png"
+              alt="Brother Gilboa"
+              class="composite"
+            />
+            <p>Rafael Gilboa #478</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Devarapalli.jpg"
+              alt="Brother Devarapalli"
+              class="composite"
+            />
+            <p>Akhill Devarapalli #476</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Leccese.jpg"
+              alt="Brother Leccese"
+              class="composite"
+            />
+            <p>Owen Leccese #474</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Makris.jpg"
+              alt="Brother Makris"
+              class="composite"
+            />
+            <p>Michael Makris #473</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Lindsey.jpg"
+              alt="Brother Lindsey"
+              class="composite"
+            />
+            <p>Joshua Lindsey #472</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Fuller.jpg"
+              alt="Brother Fuller"
+              class="composite"
+            />
+            <p>Parker Fuller #471</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Henry.jpg"
+              alt="Brother Henry"
+              class="composite"
+            />
+            <p>Kyle Henry #468</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Coppa.jpg"
+              alt="Brother Coppa"
+              class="composite"
+            />
+            <p>Evan Coppa #467</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Wahlers.jpg"
+              alt="Brother Wahlers"
+              class="composite"
+            />
+            <p>Mason Wahlers #457</p>
+          </div>
+          <div id="compositeContainer">
+            <img
+              src="assets/composites/Brother_Barr.jpg"
+              alt="Brother Barr"
+              class="composite"
+            />
+            <p>Steffen Barr #444</p>
+          </div>
         </div>
-      </div>
-    </nav>
-    <div id="BrotherhoodTitle">
-      <h1>Brothers in the Bond</h1>
-    </div>
-  </section>
-    <section id="Brothers">
-      <div id="BrothersTitle"><h1>Our Brothers</h1></div>
-      <div id="GridContainer">
-        <div id="compositeContainer">
-          <img src="assets/composites/PDT_Shield.png" alt="Brother Zuniga" class="composite">
-          <p>Eric Zuniga #516</p>
+      </section>
+      <section id="interest">
+        <div id="interestTitle">
+          <h1 style="font-size: x-large">Take the Next Step</h1>
+          <p style="font-size: smaller">
+            Become the greatest version of yourself.
+          </p>
         </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/PDT_Shield.png" alt="Brother Ebert" class="composite">
-          <p>Ryan Ebert #515</p>
+        <div id="interestBtnContainer">
+          <a href="contact.html" class="button" id="ContactBtn">Contact Us</a>
+          <a href="https://discord.gg/CGpvhKMm" class="button" id="DiscordBtn"
+            >Join our Recruitment Server</a
+          >
         </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/PDT_Shield.png" alt="Brother Juergens" class="composite">
-          <p>Alexander Juergens #514</p>
+      </section>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <script src="scripts.js"></script>
+    </body>
+    <footer id="footer">
+      <nav id="footerNav">
+        <div class="navLinksContainerFooter">
+          <ul class="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recruitment.html">Recruitment</a></li>
+            <li><a href="brotherhood.html">Brotherhood</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <p id="Copyright" style="text-align: center; color: #f8fafc">
+            &#169; 2025 Phi Delta Theta- New York Eta Chapter.
+          </p>
         </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/PDT_Shield.png" alt="Brother Moskov" class="composite">
-          <p>Luke Moscov #513</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/PDT_Shield.png" alt="Brother Hill" class="composite">
-          <p>Matthew Hill #512</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/PDT_Shield.png" alt="Brother Metzger" class="composite">
-          <p>Thomas Metzger #511</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/PDT_Shield.png" alt="Brother Luu" class="composite">
-          <p>Brian Luu #510</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/PDT_Shield.png" alt="Brother Downey" class="composite">
-          <p>Andrew Downey #509</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Black.jpg" alt="Brother Black" class="composite">
-          <p>Jayden Black #508</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Wojcik.jpg" alt="Brother Wojcik" class="composite">
-          <p>Mikey Wojcik #507</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/PDT_Shield.png" alt="Brother Worster" class="composite">
-          <p>Tobias Worster #506</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Birley.jpg" alt="Brother Birley" class="composite">
-          <p>Daniel Birley #505</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Lax.jpg" alt="Brother Lax" class="composite">
-          <p>Brady Lax #504</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Vella.jpg" alt="Brother Vella" class="composite">
-          <p>Griffin Vella #503</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/PDT_Shield.png" alt="Brother Baker" class="composite">
-          <p>Jameson Baker #502</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Murphy.jpg" alt="Brother Murphy" class="composite">
-          <p>Jackson Murphy #501</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Asghar.jpg" alt="Brother Asghar" class="composite">
-          <p>Taha Asghar #500</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Kessler.jpg" alt="Brother Kessler" class="composite">
-          <p>Jakob Kessler #499</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Perez.jpg" alt="Brother Perez" class="composite">
-          <p>Norton Perez #498</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Tomko.jpg" alt="Brother Tomko" class="composite">
-          <p>Mitchell Tomko #497</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Faber.jpg" alt="Brother Faber" class="composite">
-          <p>William Faber #496</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/PDT_Shield.png" alt="Brother Reeves" class="composite">
-          <p>Noah Reeves #495</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Selent.jpg" alt="Brother Selent" class="composite">
-          <p>Michael Selent #494</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Lee.jpg" alt="Brother Lee" class="composite">
-          <p>Jared Lee #493</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Tun.jpg" alt="Brother Tun" class="composite">
-          <p>Henry Tun #492</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/PDT_Shield.png" alt="Brother Smaistria" class="composite">
-          <p>Griffin Smaistria #491</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Stulberg.jpg" alt="Brother Stulberg" class="composite">
-          <p>Zachary Stulberg #490</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Feck.jpg" alt="Brother Feck" class="composite">
-          <p>Andy Feck #489</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Pretlez.jpg" alt="Brother Preletz" class="composite">
-          <p>Nick Pretletz #488</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Fox.jpg" alt="Brother Fox" class="composite">
-          <p>Jackson Fox #486</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_R_Smith.jpg" alt="Brother Smith" class="composite">
-          <p>Ryan Smith #485</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Gubitosi.jpg" alt="Brother Gubitosi" class="composite">
-          <p>Sean Gubitosi #484</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_C_Smith.jpg" alt="Brother Smith" class="composite">
-          <p>Callum Smith #481</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Pelletier.jpg" alt="Brother Pelletier" class="composite">
-          <p>Alex Pellitier #480</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Tully.jpg" alt="Brother Tully" class="composite">
-          <p>Adam Tully #479</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/PDT_Shield.png" alt="Brother Gilboa" class="composite">
-          <p>Rafael Gilboa #478</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Devarapalli.jpg" alt="Brother Devarapalli" class="composite">
-          <p>Akhill Devarapalli #476</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Leccese.jpg" alt="Brother Leccese" class="composite">
-          <p>Owen Leccese #474</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Makris.jpg" alt="Brother Makris" class="composite">
-          <p>Michael Makris #473</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Lindsey.jpg" alt="Brother Lindsey" class="composite">
-          <p>Joshua Lindsey #472</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Fuller.jpg" alt="Brother Fuller" class="composite">
-          <p>Parker Fuller #471</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/PDT_Shield.png" alt="Brother Henry" class="composite">
-          <p>Kyle Henry #468</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Coppa.jpg" alt="Brother Coppa" class="composite">
-          <p>Evan Coppa #467</p>
-        </div>
-        <div id="compositeContainer"> 
-          <img src="assets/composites/Brother_Wahlers.jpg" alt="Brother Wahlers" class="composite">
-          <p>Mason Wahlers #457</p>
-        </div>
-        <div id="compositeContainer">
-          <img src="assets/composites/Brother_Barr.jpg" alt="Brother Barr" class="composite">
-          <p>Steffen Barr #444</p>
-        </div>
-      </div>
-    </section>
-    <section id="interest">
-      <div id="interestTitle">
-        <h1 style="font-size: x-large;">Take the Next Step</h1>
-        <p style="font-size: smaller;">Become the greatest version of yourself.</p>
-      </div>
-      <div id="interestBtnContainer">
-        <a href="contact.html" class="button" id="ContactBtn">Contact Us</a>
-        <a href="https://discord.gg/CGpvhKMm" class="button" id="DiscordBtn"
-          >Join our Recruitment Server</a
-        >
-      </div>
-    </section>
-        <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
-    <script src="scripts.js"></script>
-</body>
-<footer id="footer">
-    <nav id="footerNav">  
-      <div class="navLinksContainerFooter">
-        <ul class="navLinks">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="recruitment.html">Recruitment</a></li>
-          <li><a href="brotherhood.html">Brotherhood</a></li>
-          <li><a href="service.html">Service</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <p id="Copyright" style="text-align: center; color: #f8fafc">
-          &#169; 2025 Phi Delta Theta- New York Eta
-          Chapter.
-        </p>
-      </div>
-    </nav>
-  </footer>
+      </nav>
+    </footer>
+  </body>
 </html>

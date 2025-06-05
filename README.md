@@ -1,8 +1,10 @@
-## ##Purpose
+# Phi Delta Theta- New York Eta Chapter Site
+
+## Purpose
 
 Develop a new chapter website for the New York Eta chapter of Phi Delta Theta Fraternity Inc., located at the Rochester Institute of Technology.
 
-## ##Tools
+## Tools
 
 - HTML
 - CSS
@@ -12,5 +14,5 @@ Develop a new chapter website for the New York Eta chapter of Phi Delta Theta Fr
 
 ## Notes
 
-- All brand assets were aquired from [Phi Delta Theta Fraternity Inc](brand.phideltatheta.org)
+- All brand assets were aquired from [Phi Delta Theta Fraternity Inc.](brand.phideltatheta.org)
 - This was designed to align with Phi Delta Theta Identity & Style Guidlines
