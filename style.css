@@ -1,25 +1,25 @@
 /* General*/
 @font-face {
-    font-family: PhiStd;
-    src: url(assets/fonts/TestSohneBreit-Buch.otf);
+  font-family: PhiStd;
+  src: url(assets/fonts/TestSohneBreit-Buch.otf);
 }
 
 @font-face {
-    font-family: PhiBold;
-    src: url(assets/fonts/TestSohne-Halbfett.otf);
+  font-family: PhiBold;
+  src: url(assets/fonts/TestSohne-Halbfett.otf);
 }
 
 * {
-    margin: 0; 
-    padding: 0; 
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: PhiStd;
-    margin: 0;
-    padding: 0;
-    background-color: #F8FAFC;
-    overflow-x: hidden;
+body {
+  font-family: PhiStd;
+  margin: 0;
+  padding: 0;
+  background-color: #f8fafc;
+  overflow-x: hidden;
 }
 
 .example::-webkit-scrollbar {
@@ -28,160 +28,159 @@ body{
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .example {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 /* Desktop Nav*/
-#desktopNav{
-    /* background-color: #619CC7; */
-    position-anchor: absolute;
+#desktopNav {
+  /* background-color: #619CC7; */
+  position-anchor: absolute;
 }
 
- nav, .navLinks{
+nav,
+.navLinks {
   display: flex;
   margin: 0;
   padding: 1px;
-  width: 100%;  
- }
+  width: 100%;
+}
 
- nav{
-    justify-content: space-evenly;
-    align-items: center;
-    height: 10vh;
- }
+nav {
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10vh;
+}
 
- .navLinks{
+.navLinks {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
- }
+}
 
- a{
+a {
   color: white;
   text-decoration: none;
   text-decoration-color: black;
- }
+}
 
- a:hover{
-  color: #AFAFB4;
+a:hover {
+  color: #afafb4;
   text-decoration: underline;
-  text-underline-offset: .5rem;
-  text-decoration-color: rbg(181,181,181);
- }
+  text-underline-offset: 0.5rem;
+  text-decoration-color: rbg(181, 181, 181);
+}
 
- .logo{
+.logo {
   font-size: 2rem;
- }
+}
 
- .logo:hover{
+.logo:hover {
   cursor: pointer;
- }
+}
 
- /* Hamburger Menu*/
+/* Hamburger Menu*/
 
- #hamburgerNav{
+#hamburgerNav {
   display: none;
   /* background-color: #619CC7; */
- }
+}
 
- .hamburgerMenu{
+.hamburgerMenu {
   position: relative;
   display: inline-block;
- }
+}
 
- .hamburgerIcon{
+.hamburgerIcon {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 24px;
   width: 30px;
   cursor: pointer;
- }
+}
 
- .hamburgerIcon span{
+.hamburgerIcon span {
   width: 100%;
   height: 2px;
-  background-color: #F8FAFC;
+  background-color: #f8fafc;
   transition: all 0.3 ease-in-out;
- }
+}
 
- .menuLinks{
+.menuLinks {
   position: absolute;
   top: 100%;
   right: 0%;
-  background-color:#F8FAFC;
+  background-color: #f8fafc;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
- }
+}
 
- .menuLinks a{
+.menuLinks a {
   display: block;
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-    color: #0D1433;
+  color: #0d1433;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
- }
+}
 
- .menuLinks li{
+.menuLinks li {
   list-style: none;
+}
 
- }
-
- .menuLinks.open{
+.menuLinks.open {
   max-height: 300px;
+}
 
- }
-
- .hamburgerIcon.open span:first-child{
+.hamburgerIcon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
- }
+}
 
- .hamburgerIcon.open span:nth-child(2){
+.hamburgerIcon.open span:nth-child(2) {
   opacity: 0;
 }
- .hamburgerIcon.open span:last-child{
+.hamburgerIcon.open span:last-child {
   transform: rotate(-45deg) translate(10px, -5px);
- }
-
- .hamburgerIcon span:first-child{
-  transform: none;
- }
-
- .hamburgerIcon span:first-child{
-  opacity: 1;
- }
-
- .hamburgerIcon span:first-child{
-  transform: none;
- }
-
- /* Buffer*/
- #Buffer{
-    background-image: url('/assets/PDT_NYH_Reading_Day_Serenades.jpg');
-    box-shadow: inset 0 0 0 1000px rgba(13, 20, 51, 0.65);
-    height: 75vh ;
-    justify-content: center;
-    align-items: center;
-    border: none;
- }
-
-#BufferContainer{
-    font-family: PhiStd;
-    font-size: x-large;
-    color: #F8FAFC;
-     margin: 0;
-    padding: 1px;
-    margin-top: 300px;
-    justify-self: center;
 }
 
-#PhiDeltTitle{
-    /* position: absolute; */
+.hamburgerIcon span:first-child {
+  transform: none;
+}
+
+.hamburgerIcon span:first-child {
+  opacity: 1;
+}
+
+.hamburgerIcon span:first-child {
+  transform: none;
+}
+
+/* Buffer*/
+#Buffer {
+  background-image: url("/assets/PDT_NYH_Reading_Day_Serenades.jpg");
+  box-shadow: inset 0 0 0 1000px rgba(13, 20, 51, 0.65);
+  height: 75vh;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+#BufferContainer {
+  font-family: PhiStd;
+  font-size: x-large;
+  color: #f8fafc;
+  margin: 0;
+  padding: 1px;
+  margin-top: 300px;
+  justify-self: center;
+}
+
+#PhiDeltTitle {
+  /* position: absolute; */
   width: 100%;
   height: 20px;
   top: 50%;
@@ -189,80 +188,77 @@ body{
   text-align: center;
 }
 
-
- /* About Section*/
-#About{
-    /* background-image: url('/assets/PDT_NYH_Reading_Day_Serenades.jpg'); */
-    background-color: #F8FAFC;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
-    /* background-repeat: no-repeat;
+/* About Section*/
+#About {
+  /* background-image: url('/assets/PDT_NYH_Reading_Day_Serenades.jpg'); */
+  background-color: #f8fafc;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  /* background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover; */
-    background-position: top;
-    margin: 0;
-    padding: 1px;
-    border: none;
+  background-position: top;
+  margin: 0;
+  padding: 1px;
+  border: none;
 }
 
-
-#FoundingPrinciples{
-    background-color: #F8FAFC;
-    font-family: PhiStd;
-    font-size: x-large;
-    text-align: center;
-    margin: 0;
-    padding: 1px;
-    color: #0D1433;
-        height: 40vh;
-
+#FoundingPrinciples {
+  background-color: #f8fafc;
+  font-family: PhiStd;
+  font-size: x-large;
+  text-align: center;
+  margin: 0;
+  padding: 1px;
+  color: #0d1433;
+  height: 40vh;
 }
 
-#PrinciplesContainer{
-    display: flex;
-    font-family: PhiStd;
-    justify-content:baseline;
-    padding: 45px;
-    font-size: large;
-    color: #0D1433;
+#PrinciplesContainer {
+  display: flex;
+  font-family: PhiStd;
+  justify-content: baseline;
+  padding: 45px;
+  font-size: large;
+  color: #0d1433;
 }
 
-#Friendship{
-    background-color:#E2E8F0;
-    border-radius: 25px;
-    margin-right: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
+#Friendship {
+  background-color: #e2e8f0;
+  border-radius: 25px;
+  margin-right: 10px;
+  /* padding-left: 5px;
+    padding-right: 5px; */
 }
-#SoundLearning{
-    background-color: #E2E8F0;
-    border-radius: 25px;
-    margin-right: 10px;
-
-}
-
-#MoralRectitude{
-    background-color: #E2E8F0;
-    border-radius: 25px;
+#SoundLearning {
+  background-color: #e2e8f0;
+  border-radius: 25px;
+  margin-right: 10px;
 }
 
-#history{
-    background-color: #DBECF3;
-    text-align: center;
-    margin: 1px;
-    padding: 0;
-}
-#HistoryContainer{
-    margin: 50px;
-    display: flex;
-    justify-content: space-around;
+#MoralRectitude {
+  background-color: #e2e8f0;
+  border-radius: 25px;
+  margin-right: 10px;
 }
 
-#HistoryTitle{
-    font-size: x-large;
+#history {
+  background-color: #dbecf3;
+  text-align: center;
+  margin: 1px;
+  padding: 0;
+}
+#HistoryContainer {
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
 }
 
-#HistoryText{
-    width: 600px;
+#HistoryTitle {
+  font-size: x-large;
+}
+
+#HistoryText {
+  width: 600px;
 }
 
 #historyImage {
@@ -271,162 +267,290 @@ body{
   display: block;
 }
 /* Recruitment */
-#Recruitment{
-    background-color: #DBECF3;
-    margin: 0;
-    padding: 1px;
-    color: #0D1433;
+#Recruitment {
+  background-color: #dbecf3;
+  margin: 0;
+  padding: 1px;
+  color: #0d1433;
 }
 
-#RecruitmentTop{
-    background-image: url(assets/PDT_NYH_Fall_Recruitment_2024.jpg);
-    height: 75vh;
-    background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(13, 20, 51, 0.65);
+#RecruitmentTop {
+  background-image: url(assets/PDT_NYH_Fall_Recruitment_2024.jpg);
+  height: 75vh;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(13, 20, 51, 0.65);
 }
 
-#RecruitmentTitle{
-    font-family: PhiStd;
-    font-size: xx-large;
+#RecruitmentTitle {
+  font-family: PhiStd;
+  font-size: xx-large;
   text-align: center;
-  color: #F8FAFC;
+  color: #f8fafc;
   margin-top: 200px;
 }
 
-#RecruitmentContainer{
-    display: flex;
-    font-family: PhiStd;
-    justify-content: space-between;
-    padding: 50px;
-    text-align: center;
+#RecruitmentContainer {
+  display: flex;
+  font-family: PhiStd;
+  justify-content: space-between;
+  padding: 50px;
+  text-align: center;
 }
 
-#WhyPhiDelt{
-    text-align: center;
+#WhyPhiDelt {
+  text-align: center;
 }
 
-#TestimonyContainer{
-display: table;
-color: #0D1433;
-margin-left: 95px;
-
+#TestimonyContainer {
+  display: table;
+  color: #0d1433;
+  margin-left: 95px;
 }
 
-#JFoxxy, #Pretzel, #Callum, #Corey, #OPL{
-    padding: 2px;
-    background-color: #CBD5E1;
-    border-radius: 15px;
-    word-wrap: break-word;
+#JFoxxy,
+#Pretzel,
+#Callum,
+#Corey,
+#OPL {
+  padding: 2px;
+  background-color: #cbd5e1;
+  border-radius: 15px;
+  word-wrap: break-word;
 }
 
-#JFoxxy, #Pretzel, #Callum, #Corey{
-    margin-bottom: 50px;
+#JFoxxy,
+#Pretzel,
+#Callum,
+#Corey {
+  margin-bottom: 50px;
 }
 
- #myBtn {
-  display: none; 
-  position: fixed; 
-  bottom: 20px; 
-  right: 30px; 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
   z-index: 99;
-  border: none; 
-  outline: none; 
-  background-image: url(assets/PDT_Swords.png);
-  background-color: #F1F5F9;
-  /* color: #0D1433;   */
-  cursor: pointer; 
-  padding: 15px; 
+  border: none;
+  outline: none;
+  /* background-image: url(assets/PDT_Swords.png); */
+  background-color: #0d1433;
+  color: #f8fafc;
+  cursor: pointer;
+  padding: 15px;
   /* border-radius: 10px;
   font-size: 18px;  */
 }
 
 /* Interest*/
-#ContactBtn, #DiscordBtn{
-    font-family: PhiStd;
-    color: #0D1433;
-    margin-left: 20px;
-    /* background-color: #AFAFB4; */
-    border-radius: 15px;
-    font-size: larger;
+#ContactBtn,
+#DiscordBtn {
+  font-family: PhiStd;
+  color: #f8fafc;
+  margin-left: 20px;
+  font-size: large;
+  border-radius: 5px;
+  background-color: #619cc7;
+  padding: 5px;
 }
 
-
-#contactbtn:hover, #DiscordBtn:hover{
-    text-decoration: underline;
-    text-decoration-color: #0D1433;
+#ContactBtn:hover,
+#DiscordBtn:hover {
+  cursor: pointer;
+  text-decoration: none;
 }
 
-#interest{
-    background-color: #F8FAFC;
-    text-align: center;
-    padding: 0;
-    margin: 1px;
-    height: 125px;
-    font-size: x-large;
+#interest {
+  background-color: #f8fafc;
+  text-align: center;
+  padding: 0;
+  margin: 1px;
+  height: 15vh;
+  color: #334155;
 }
 
-
+#interestBtnContainer {
+  margin-top: 25px;
+}
 
 /* Brotherhood */
 
-#BrotherhoodTop{
-    background-image: url(assets/PDT_NYH_White_Carnation_Ball_2025.jpg);
-    height: 75vh;
-    background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(13, 20, 51, 0.65);
+#BrotherhoodTop {
+  background-image: url(assets/PDT_NYH_White_Carnation_Ball_2025.jpg);
+  height: 75vh;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(13, 20, 51, 0.65);
 }
 
-#BrotherhoodTitle{
-        font-family: PhiStd;
-    font-size: xx-large;
+#BrotherhoodTitle {
+  font-family: PhiStd;
+  font-size: xx-large;
   text-align: center;
-  color: #F8FAFC;
+  color: #f8fafc;
   margin-top: 200px;
 }
 
-#BrothersTitle{
-    text-align: center;
+#Brothers {
+  color: #0d1433;
 }
-#GridContainer{
-    display:table;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+#BrothersTitle {
+  text-align: center;
+  font-size: xx-large;
+}
+#GridContainer {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: max-content;
+  margin-top: 15px;
+}
+
+.composite {
+  border-radius: 50%;
+  height: 200px;
+  width: 205px;
+}
+
+#compositeContainer {
+  text-align: center;
+  font-family: PhiStd;
+  color: #0d1433;
+  margin-top: 5px;
 }
 
 /* Service */
-#ServiceTop{
-    background-image: url(assets/PDT_NYH_Fall_Service_2024.jpg);
-    height: 75vh;
-    background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(13, 20, 51, 0.65);
+#ServiceTop {
+  background-image: url(assets/PDT_NYH_Fall_Service_2024.jpg);
+  height: 75vh;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(13, 20, 51, 0.65);
 }
 
-#ServiceTitle{
-        font-family: PhiStd;
-    font-size: xx-large;
+#ServiceTitle {
+  font-family: PhiStd;
+  font-size: xx-large;
   text-align: center;
-  color: #F8FAFC;
+  color: #f8fafc;
   margin-top: 200px;
+}
+
+#LiveLikeLou {
+  display: flex;
+  background-color: #dbecf3;
+}
+
+#ServiceContainer {
+  width: 55vw;
+  margin: 20px;
+}
+
+#ServicePicture {
+  height: 250px;
+  margin-left: 175px;
+}
+
+/* Contact */
+#ContactTop {
+  background-image: url(assets/PDT_NYH_Fall_APC_Tailgate_2024.jpg);
+  height: 75vh;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(13, 20, 51, 0.65);
+}
+
+#ContactTitle {
+  font-family: PhiStd;
+  font-size: xx-large;
+  text-align: center;
+  color: #f8fafc;
+  margin-top: 200px;
+}
+
+#ContactSection {
+  display: flex;
+  justify-content: center;
+  background-color: #dbecf3;
+}
+
+.contact-form-container {
+  font-family: PhiStd;
+  background-color: #f8fafc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+}
+
+h2 {
+  margin-top: 0;
+  color: #334155;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #334155;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #f8fafc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  display: none;
+}
+
+.submit-button {
+  background-color: #619cc7;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #619cc7;
 }
 
 /* Footer*/
 
-#footer{
-    padding: 0;
-    margin: 1px;
+#footer {
+  padding: 0;
+  margin: 1px;
 }
-#footerNav{
-    background-color: #0D1433;
-    justify-content: center;
-}
-
-#footerNavLinks{
-    color: #0D1433;
+#footerNav {
+  background-color: #0d1433;
+  justify-content: center;
 }
 
-#Stars{
-justify-content: left;
+
+
+#Stars {
+  justify-content: left;
 }
 
-#navLinksContainerFooter{
-    justify-content: center;
+#navLinksContainerFooter {
+  justify-content: center;
 }

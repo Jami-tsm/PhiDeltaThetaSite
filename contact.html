@@ -13,6 +13,7 @@
 </head>
 <body>
     <body>
+      <section id="ContactTop">
     <nav id="desktopNav">
       <div class="logo" onclick="location.href='./'">
         <a href="/"
@@ -73,15 +74,64 @@
           <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
-    </nav>
- <!-- form.123formbuilder.com script begins here -->
-<iframe allowTransparency="true" style=" min-height:300px; height: 750px;" width="100%" id="contactform123" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="https://form.123formbuilder.com/my-contact-form-6851745.html?customVars123=yes&hasEmbedFormStyle=1">
-<p>Your browser does not support iframes. The contact form cannot be displayed. Please use another contact method (Instagram, Discord, etc.)</p>
-</iframe>
-<!-- form.123formbuilder.com script ends here -->
-<button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+    </nav><section id="ContactContainer"></section>
+      <div id="ContactTitle">
+        <h1>Get in Touch</h1>
+      </div>
+  </section>
+  <section id="ContactSection">
+  <div class="contact-form-container">
+        <h2>Contact Us</h2>
+        <form id="contactForm" method="post" action="contact.php">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" 
+                       name="name" 
+                       placeholder="John Smith" required
+                       style="font-family: PhiStd"
+                       >
+                <span class="error-message" id="nameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" 
+                       name="email" 
+                       placeholder="abc1234@rit.edu" required
+                       style="font-family: PhiStd"
+                       >
+                <span class="error-message" id="emailError"></span>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input  id="subject" type="subject"
+                       name="subject" 
+                       placeholder="Rush Interest" required
+                       style="font-family: PhiStd"
+                       >
+                <span class="error-message" id="subjectError"></span>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" 
+                          name="message" 
+                          placeholder="Your Message" 
+                          rows="5" required 
+                          style="font-family: PhiStd;"
+                          ></textarea>
+                <span class="error-message" 
+                      id="messageError"></span>
+            </div>
+            <button type="submit" 
+                    class="submit-button"
+                    style="font-family: PhiStd"
+                    >
+              Send Message
+            </button>
+        </form>
+    </div>
+    </section>
+<button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
     <script src="scripts.js"></script>
-
 </body>
 <footer id="footer">
     <nav id="footerNav">  
@@ -94,8 +144,8 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <p id="Copyright" style="text-align: center; color: #f8fafc">
-          Copyright &#169; 2025 Phi Delta Theta Fraternity Inc. New York Eta
-          Chapter. All Rights Reserved.
+          &#169; 2025 Phi Delta Theta- New York Eta
+          Chapter.
         </p>
       </div>
     </nav>
