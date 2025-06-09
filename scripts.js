@@ -61,7 +61,7 @@ document.getElementById('contactForm').addEventListener('submit', function (even
         isValid = false;
     }
 
-    // TODO: Fiure out how to actually submit to recruitment chairman email
+    // TODO: Figure out how to actually submit to recruitment chairman email
     if (isValid) {
         alert('Form submitted successfully!');
         
