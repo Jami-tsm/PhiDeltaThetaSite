@@ -432,9 +432,10 @@ a:hover {
 /*TODO: Fix weird grid issue on second to last row*/
 #GridContainer {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  grid-template-rows: max-content;
-  margin-top: 15px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: none;
+  min-width: 4;
 }
 
 .composite {
