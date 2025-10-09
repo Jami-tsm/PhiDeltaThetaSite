@@ -16,3 +16,6 @@ Develop a new chapter website for the New York Eta chapter of Phi Delta Theta Fr
 
 - All brand assets were aquired from [Phi Delta Theta Fraternity Inc.](brand.phideltatheta.org)
 - This was designed to align with Phi Delta Theta Identity & Style Guidlines
+
+## Deployment
+[Deployed Website](https://phi-delta-theta-site.vercel.app)
