@@ -1,0 +1,11 @@
+- [ ] Change send-to email address to nyetaphidelt@proton.me
+- [ ] Add Nu Class
+- [ ] Add newsletter page
+    - [ ] Newsletter sign-up?
+    - [ ] View all newsletters
+- [ ] Investigate PHP contact form issue
+- [ ] Fix logo dimensions
+- [ ] Update Recruitment poster
+  - [ ] New testimonials??
+- [ ] update to-top button
+- 
