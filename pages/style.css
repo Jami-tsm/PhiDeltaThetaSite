@@ -1,12 +1,12 @@
 /* General*/
 @font-face {
   font-family: PhiStd;
-  src: url(assets/fonts/TestSohneBreit-Buch.otf);
+  src: url(../assets/fonts/TestSohneBreit-Buch.otf);
 }
 
 @font-face {
   font-family: PhiBold;
-  src: url(assets/fonts/TestSohne-Halbfett.otf);
+  src: url(../assets/fonts/TestSohne-Halbfett.otf);
 }
 
 * {
@@ -276,7 +276,7 @@ a:hover {
 }
 
 #RecruitmentTop {
-  background-image: url(assets/PDT_NYH_Fall_Recruitment_2024.jpg);
+  background-image: url(../assets/PDT_NYH_Fall_Recruitment_2024.jpg);
   height: 75vh;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(13, 20, 51, 0.65);
@@ -380,7 +380,7 @@ a:hover {
 /* Brotherhood */
 
 #BrotherhoodTop {
-  background-image: url(assets/PDT_NYH_White_Carnation_Ball_2025.jpg);
+  background-image: url(../assets/PDT_NYH_White_Carnation_Ball_2025.jpg);
   height: 75vh;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(13, 20, 51, 0.65);
@@ -453,7 +453,7 @@ a:hover {
 
 /* Service */
 #ServiceTop {
-  background-image: url(assets/PDT_NYH_Fall_Service_2024.jpg);
+  background-image: url(../assets/PDT_NYH_Fall_Service_2024.jpg);
   height: 75vh;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(13, 20, 51, 0.65);
@@ -537,7 +537,7 @@ a:hover {
 
 /* Contact */
 #ContactTop {
-  background-image: url(assets/PDT_NYH_Fall_APC_Tailgate_2024.jpg);
+  background-image: url(../assets/PDT_NYH_Fall_APC_Tailgate_2024.jpg);
   height: 75vh;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(13, 20, 51, 0.65);
