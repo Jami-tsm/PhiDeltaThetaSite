@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phi Delt NYH</title>
+    <link rel="shortcut icon" href="./assets/PDT_Swords.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/galleryStyles.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/mediaQueries.css" />
+</head>
+<body>
+<section id="Buffer">
+    <nav id="desktopNav">
+        <div class="logo" onclick="location.href='index.html'">
+            <a href="index.html"
+            ><img
+                    alt="Phi Delta Theta Shield"
+                    loading="lazy"
+                    width="150"
+                    height="75"
+                    decoding="async"
+                    data-nimg="1"
+                    class="drop-shadow-[0_0_10px_rgba(251,191,36,0.5)]"
+                    style="color: transparent"
+                    src="./assets/PDT_Greek_Rev_NoTag.png"
+            />
+            </a>
+        </div>
+        <div>
+            <ul class="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recruitment.html">Recruitment</a></li>
+                <li><a href="brotherhood.html">Brotherhood</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburgerNav">
+        <div class="logo" onclick="location.href='index.html'">
+            <a href="index.html"
+            ><img
+                    alt="Phi Delta Theta Shield"
+                    loading="lazy"
+                    width="2875"
+                    height="1033"
+                    decoding="async"
+                    data-nimg="1"
+                    class="rgba(251,191,36,0.5)"
+                    style="color: transparent"
+                    src="./assets/PDT_Greek_Rev_NoTag.png"
+            />
+            </a>
+        </div>
+        <div class="hamburgerMenu">
+            <div class="hamburgerIcon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menuLinks">
+                <li>
+                    <a href="index.html" onclick="toggleMenu()">Home</a>
+                </li>
+                <li>
+                    <a href="recruitment.html" onclick="toggleMenu()">Recruitment</a>
+                </li>
+                <li>
+                    <a href="brotherhood.html" onclick="toggleMenu()">Brotherhood</a>
+                </li>
+                <li><a href="service.html" onclick="toggleMenu()">Service</a></li>
+                <li><a href="gallery.html"onclick="toggleMenu()">Gallery</a></li>
+                <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+
+            </div>
+        </div>
+    </nav>
+    <div id="BufferContainer">
+        <div id="PhiDeltTitle">
+            <h1>Photo Gallery</h1>
+        </div>
+    </div>
+</section>
+<div class="background">
+    <div class="container">
+        <div class="image">
+            <img src="https://picsum.photos/1080/1080?1" data-scroll-zoom />
+        </div>
+        <div class="image">
+            <img src="https://picsum.photos/1080/1080?2" data-scroll-zoom />
+        </div>
+        <div class="image">
+            <img src="https://picsum.photos/1080/1080?3" data-scroll-zoom />
+        </div>
+        <div class="image">
+            <img src="https://picsum.photos/1080/1080?4" data-scroll-zoom />
+        </div>
+        <div class="image">
+            <img src="https://picsum.photos/1080/1080?5" data-scroll-zoom />
+        </div>
+        <div class="image">
+            <img src="https://picsum.photos/1080/1080?6" data-scroll-zoom />
+        </div>
+        <div>
+            <p>This method utilizes the Intersection Observer to zoom the image <em>only when it is in view,</em> which cuts down on the processing power required for this effect.</p>
+        </div>
+    </div>
+</div>
+</body>
+<footer id="footer">
+    <nav id="footerNav">
+        <div class="navLinksContainerFooter">
+            <ul class="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recruitment.html">Recruitment</a></li>
+                <li><a href="brotherhood.html">Brotherhood</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <p id="Copyright" style="text-align: center; color: #f8fafc">
+                &#169; 2025 Phi Delta Theta — New York Eta Chapter.
+            </p>
+        </div>
+    </nav>
+</footer>
+</html>

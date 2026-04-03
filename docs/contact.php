@@ -5,16 +5,16 @@ $email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$to = "jjb1390@g.rit.edu";
+$to = "pdt.newyorketa@gmail.com";
 
 // The following text will be sent
-// Name = user entered name
-// Email = user entered email
-// Message = user entered message 
+// Name = user-entered name
+// Email = user-entered email
+// Message = user-entered message
 $txt = "Name = " . $name . "\r\n  Email = "
     . $email . "\r\n Message =" . $message;
 
-$headers = "From: contact@pdtnewyorketa.com" . "\r\n";
+$headers = "From: pdt.newyorketa@gmail.com" . "\r\n";
 if ($email != NULL) {
     mail($to, $subject, $txt, $headers);
 }
