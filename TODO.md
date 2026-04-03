@@ -1,5 +1,5 @@
 - [ ] Change send-to email address to nyetaphidelt@proton.me
-- [ ] Add Nu Class
+- [x] Add Nu Class
 - [ ] Add newsletter page
     - [ ] Newsletter sign-up?
     - [ ] View all newsletters
