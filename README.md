@@ -61,7 +61,7 @@ No build tools or package manager is required — this is a plain HTML/CSS/JS si
 
 ## Deployment
 
-The site is deployed on **Vercel**. Any pushes to the `main` branch will automatically trigger a new deployment.
+The site is deployed on **Github Pages**. Any pushes to the `main` branch will automatically trigger a new deployment.
 
 ---
 
