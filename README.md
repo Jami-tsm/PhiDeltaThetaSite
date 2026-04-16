@@ -2,7 +2,7 @@
 
 The official chapter website for the **New York Eta** chapter of Phi Delta Theta Fraternity, Inc., located at the **Rochester Institute of Technology**.
 
-🔗 [View Live Site]([https://phi-delta-theta-site.vercel.app](https://jami-tsm.github.io/PhiDeltaThetaSite/))
+🔗 [View Live Site](https://jami-tsm.github.io/PhiDeltaThetaSite/)
 
 ---
 
